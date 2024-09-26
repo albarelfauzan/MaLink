@@ -1,5 +1,20 @@
 {
   "pages": {
+    "/(DashboardLayout)/automation/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(DashboardLayout)/automation/page.js"
+    ],
+    "/(DashboardLayout)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(DashboardLayout)/layout.js"
+    ],
+    "/(DashboardLayout)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(DashboardLayout)/loading.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -15,21 +30,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(DashboardLayout)/page.js"
-    ],
-    "/(DashboardLayout)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(DashboardLayout)/layout.js"
-    ],
-    "/(DashboardLayout)/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(DashboardLayout)/loading.js"
-    ],
-    "/(DashboardLayout)/automation/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(DashboardLayout)/automation/page.js"
     ]
   }
 }

@@ -37,6 +37,7 @@
     "web3": "^4.12.1"
   },
   "devDependencies": {
+    "@types/estree": "^1.0.6",
     "@types/lodash": "4.14.196",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.45",
